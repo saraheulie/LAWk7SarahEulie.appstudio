@@ -16,7 +16,34 @@
         "forms",
         "customerDelete",
         "Elements",
-        "inptDelName.json"
+        "txtaCustomerNamesDel.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerDelete",
+        "Elements",
+        "lblMessageDel.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerDelete",
+        "Elements",
+        "btnDelete.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerDelete",
+        "Elements",
+        "inptDel.json"
       ]
     }
   ],
@@ -28,7 +55,7 @@
   "height": 460,
   "id": "customerDelete",
   "language": "JavaScript",
-  "left": "0",
+  "left": "auto",
   "locked": false,
   "modal": "false",
   "onhide": "",
@@ -42,6 +69,6 @@
   "setFocusID": "",
   "style": "",
   "theme": "",
-  "top": "0",
-  "width": 320
+  "top": "auto",
+  "width": "auto"
 }

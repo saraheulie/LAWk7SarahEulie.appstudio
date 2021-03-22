@@ -16,7 +16,16 @@
         "forms",
         "customerSelect",
         "Elements",
-        "txtCustomerNames.json"
+        "txtaCustomerNames.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerSelect",
+        "Elements",
+        "lblMessage.json"
       ]
     }
   ],
