@@ -1,20 +1,25 @@
+let query = ""
+let req = {}
 let netID = "sme89450"
 let pw = "Chocolate-0-"
-let databaseSchema = "sme89450"
+let results = []
 
-query = "SELECT * FROM customer"
-    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + databaseSchema + "&query=" + query)
+customerSelect.onshow = function() {
+  query = "SELECT * FROM customer"
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + netID + "&query=" + query)
 
     if (req.status == 200) { //transit trip worked. 
-        customerList = JSON.parse(req.responseText)
-        if (customerList.length === 0)    
-           txtCustomerNames.value = "There are no customers in the database."
+        results = JSON.parse(req.responseText)
+        console.log(`The results are /n ${results}`)
+        if (results.length === 0)    
+           lblMessage.value = "There are no customers in the database."
         else {        
            let message = ""
-           for (i = 0; i < customerList.length; i++)
-               message = message + customerList[i][1] + "\n"
-           txtCustomerNames.value = message
+           for (i = 0; i < results.length; i++)
+               message = message + results[i][1] + "\n"
+           txtaCustomerNames.value = message
         } // end else
 
     } else   // the transit didn't work - bad wifi? server turned off?
-        txtCustomerNames.value = "Error code: " + req.status
+        lblMessage.value = "Error code: " + req.status
+}

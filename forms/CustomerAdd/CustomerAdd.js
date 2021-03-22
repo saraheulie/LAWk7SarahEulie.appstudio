@@ -1,3 +1,4 @@
+/*
 let name = inptName.value
     let animalType = inptType.value
     let query = "INSERT INTO pets (`petName`,`petType`) VALUES ('" + name + "', '" + animalType + "')"
@@ -9,3 +10,5 @@ let name = inptName.value
             lblMessage3.textContent = "There was a problem with adding the pet to the database."
     } else 
         lblMessage3.textContent = "Error: " + req.status
+        
+        */
