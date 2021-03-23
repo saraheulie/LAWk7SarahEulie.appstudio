@@ -16,7 +16,70 @@
         "forms",
         "customerAdd",
         "Elements",
-        "txtaCustomerNames2.json"
+        "txtaCustomerNamesAdd.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "inptCustomerName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "lblMessageAdd.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "btnAdd.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "inptCustomerStreet.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "inptCustomerZIP.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "inptCustomerCity.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "inptCustomerState.json"
       ]
     }
   ],

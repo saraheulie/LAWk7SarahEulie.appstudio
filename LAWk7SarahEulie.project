@@ -46,8 +46,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "CustomerUpdate",
-            "CustomerUpdate.json"
+            "customerUpdate",
+            "customerUpdate.json"
           ]
         }
       ],
@@ -70,7 +70,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "customerDelete",
+      "firstform": "customerUpdate",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
